@@ -1,0 +1,19 @@
+@import "variables";
+
+* {
+	font-family: 'Lato', sans-serif;
+    font-family: 'Inter', sans-serif;
+}
+
+*a {
+	text-decoration: none;
+	color: white;
+	&:hover {
+		color: white;
+	}	
+}
+
+.container {
+	max-width: 1280px;
+	margin: 0 auto;
+}
