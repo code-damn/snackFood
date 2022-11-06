@@ -2,10 +2,9 @@
 
 * {
 	font-family: 'Lato', sans-serif;
-    font-family: 'Inter', sans-serif;
 }
 
-*a {
+a {
 	text-decoration: none;
 	color: white;
 	&:hover {
@@ -17,3 +16,8 @@
 	max-width: 1280px;
 	margin: 0 auto;
 }
+
+@import "header";
+@import "navMenu";
+@import "main";
+@import "salads";
